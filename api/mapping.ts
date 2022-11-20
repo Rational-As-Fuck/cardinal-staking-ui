@@ -138,7 +138,6 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       fontColor: '#FFFFFF',
       fontColorSecondary: '#FFFFFF',
     },
-    backgroundImage:
-      'https://storage.googleapis.com/feliz-crypto/project_photos/IMSO_gif_5.gif',
+    backgroundImage: '',
   },
 ]

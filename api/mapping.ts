@@ -224,7 +224,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       'https://igytn5tvqnfcoas2rinwz5flhz75w3crscwdbmen5fqen2vong6q.arweave.net/QbE29nWDSicCWoobbPSrPn_bbFGQrDCwjelgRuquab0',
     maxStaked: 1160,
     nameInHeader: true,
-    description: 'Stake your standard chimp for 3 $RAIN/day',
+    description: 'Stake your Meta Chimp Champion for 3 $RAIN/day',
     receiptType: ReceiptType.Original,
     tokenStandard: TokenStandard.NonFungible,
     hideAllowedTokens: true,

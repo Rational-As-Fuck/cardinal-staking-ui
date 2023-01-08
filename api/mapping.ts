@@ -122,7 +122,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     hideAllowedTokens: true,
     hideFooter: true,
     styles: {
-      fontFamily: 'Paralucent',
+      fontFamily: 'Industry',
       fontWeight: 500,
       backgroundSize: '100% auto',
     },
@@ -158,7 +158,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     hideAllowedTokens: true,
     hideFooter: true,
     styles: {
-      fontFamily: 'Paralucent',
+      fontFamily: 'Industry',
       fontWeight: 500,
       backgroundSize: '100% auto',
     },
@@ -194,7 +194,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     hideAllowedTokens: true,
     hideFooter: true,
     styles: {
-      fontFamily: 'Paralucent',
+      fontFamily: 'Industry',
       fontWeight: 500,
       backgroundSize: '100% auto',
     },
@@ -230,7 +230,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     hideAllowedTokens: true,
     hideFooter: true,
     styles: {
-      fontFamily: 'Paralucent',
+      fontFamily: 'Industry',
       fontWeight: 500,
       backgroundSize: '100% auto',
     },

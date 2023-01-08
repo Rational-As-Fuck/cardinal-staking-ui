@@ -114,7 +114,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     websiteUrl: 'https://linktr.ee/IMSOnft',
     imageUrl:
       'https://d1fdloi71mui9q.cloudfront.net/JXkGgPyVTxmYtFiLOEa1_Gib4XWn8Gfg1cUtQ',
-    maxStaked: 3000,
+    maxStaked: 3509,
     nameInHeader: true,
     description: 'Stake your IMSO Evolved Chimps for 1 $RAIN/day',
     receiptType: ReceiptType.Original,
@@ -202,42 +202,6 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       {
         text: 'Buy Now',
         value: 'https://magiceden.io/marketplace/intergalactic_monkey_space_odyssey',
-      },
-    ],
-    colors: {
-      primary: '#000000',
-      secondary: '#000000',
-      accent: '#000000',
-      fontColor: '#FFFFFF',
-      fontColorSecondary: '#FFFFFF',
-    },
-    backgroundImage: '',
-  },
-  {
-    name: 'standard-chimps',
-    displayName: 'IMSO Standard Chimps',
-    stakePoolAddress: new PublicKey(
-      'PeRC2AFeQfhwSeRPGnGRNuCFDvijYrELd1UvbnYDjbM'
-    ),
-    websiteUrl: 'https://linktr.ee/IMSOnft',
-    imageUrl:
-      'https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/imsonft_pfp_1654462721187.jpeg',
-    maxStaked: 408,
-    nameInHeader: true,
-    description: 'Stake your standard chimp for 1 $RAIN/day',
-    receiptType: ReceiptType.Original,
-    tokenStandard: TokenStandard.NonFungible,
-    hideAllowedTokens: true,
-    hideFooter: true,
-    styles: {
-      fontFamily: 'Paralucent',
-      fontWeight: 500,
-      backgroundSize: '100% auto',
-    },
-    links: [
-      {
-        text: 'Buy Now',
-        value: 'https://magiceden.io/marketplace/imsonft',
       },
     ],
     colors: {

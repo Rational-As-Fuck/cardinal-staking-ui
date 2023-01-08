@@ -171,5 +171,3 @@ The default cluster set is **mainnet**. It's recommended to ensure you have `?cl
 ## Have questions?
 
 Join our **[Discord](https://discord.gg/cardinallabs)** to get technical support as you build on Cardinal.
-
----

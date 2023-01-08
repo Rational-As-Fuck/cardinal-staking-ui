@@ -114,7 +114,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     websiteUrl: 'https://linktr.ee/IMSOnft',
     imageUrl:
       'https://d1fdloi71mui9q.cloudfront.net/JXkGgPyVTxmYtFiLOEa1_Gib4XWn8Gfg1cUtQ',
-    maxStaked: 3000,
+    maxStaked: 3509,
     nameInHeader: true,
     description: 'Stake your IMSO Evolved Chimps for 1 $RAIN/day',
     receiptType: ReceiptType.Original,

@@ -2,7 +2,7 @@ import { AccountConnect } from '@cardinal/namespaces-components'
 import { useWallet } from '@solana/wallet-adapter-react'
 import { useWalletModal } from '@solana/wallet-adapter-react-ui'
 import { GlyphWallet } from 'assets/GlyphWallet'
-import { LogoTitled } from 'assets/LogoTitled'
+// import { LogoTitled } from 'assets/ImsoLogoTitled'
 import { useRouter } from 'next/router'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 import { useEffect, useState } from 'react'
@@ -34,7 +34,6 @@ export const HeaderSlim = () => {
               router.push(`/${location.search}`)
             }}
           >
-            <LogoTitled className="inline-block h-6" />
           </div>
           {environment.label !== 'mainnet-beta' && (
             <div className="text-primary">{environment.label}</div>

@@ -64,6 +64,7 @@ export type StakePoolMetadata = {
     fontColor?: string
     fontColorSecondary?: string
     backgroundSecondary?: string
+    fontColorTertiary?: string
   }
   // Disallow regions based on IP address
   disallowRegions?: { code: string; subdivision?: string }[]
@@ -110,10 +111,10 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     stakePoolAddress: new PublicKey(
       'HFj3pKHCfiE1KRacBz5YYatnrWDVqiZxnHrqhdR9VqUa'
     ),
-    websiteUrl: 'https://imsonft.me/',
+    websiteUrl: 'https://linktr.ee/IMSOnft',
     imageUrl:
       'https://d1fdloi71mui9q.cloudfront.net/JXkGgPyVTxmYtFiLOEa1_Gib4XWn8Gfg1cUtQ',
-    maxStaked: 3000,
+    maxStaked: 3509,
     nameInHeader: true,
     description: 'Stake your IMSO Evolved Chimps for 1 $RAIN/day',
     receiptType: ReceiptType.Original,
@@ -129,6 +130,114 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       {
         text: 'Buy Now',
         value: 'https://hyperspace.xyz/collection/imso',
+      },
+    ],
+    colors: {
+      primary: '#000000',
+      secondary: '#000000',
+      accent: '#000000',
+      fontColor: '#FFFFFF',
+      fontColorSecondary: '#FFFFFF',
+    },
+    backgroundImage: '',
+  },
+  {
+    name: 'meta-overlord-clones',
+    displayName: 'Meta Overlord Clones',
+    stakePoolAddress: new PublicKey(
+      'Dc8snKqYYg2t4AFRY2CAsA5PqyTkHmihiFscU1DUKxcR'
+    ),
+    websiteUrl: 'https://linktr.ee/IMSOnft',
+    imageUrl:
+      'https://vjjrkbcq4d4cm4bsc6ddad7ly74u6czpprw435iga4o4b2q47tzq.arweave.net/qlMVBFDg-CZwMheGMA_rx_lPCy98bc31BgcdwOoc_PM?ext=jpg',
+    maxStaked: 477,
+    nameInHeader: true,
+    description: 'Stake your clone for 4.5 $RAIN/day',
+    receiptType: ReceiptType.Original,
+    tokenStandard: TokenStandard.NonFungible,
+    hideAllowedTokens: true,
+    hideFooter: true,
+    styles: {
+      fontFamily: 'Paralucent',
+      fontWeight: 500,
+      backgroundSize: '100% auto',
+    },
+    links: [
+      {
+        text: 'Buy Now',
+        value: 'https://magiceden.io/marketplace/intergalactic_monkey_space_odyssey',
+      },
+    ],
+    colors: {
+      primary: '#000000',
+      secondary: '#000000',
+      accent: '#000000',
+      fontColor: '#FFFFFF',
+      fontColorSecondary: '#FFFFFF',
+    },
+    backgroundImage: '',
+  },
+  {
+    name: 'unique-overlord',
+    displayName: 'Unique Meta Overlords',
+    stakePoolAddress: new PublicKey(
+      'DzKf8FmUqPmJfb62XaxWZ9F5uSUstCVrLgVSbVzbKR9X'
+    ),
+    websiteUrl: 'https://linktr.ee/IMSOnft',
+    imageUrl:
+      'https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachments/fc1d1275f51b28f4a294c55e7101c280/414d4881/IMSOnft_MagicEden_500x500.jpg',
+    maxStaked: 32,
+    nameInHeader: true,
+    description: 'Stake your unique overlord for 6 $RAIN/day',
+    receiptType: ReceiptType.Original,
+    tokenStandard: TokenStandard.NonFungible,
+    hideAllowedTokens: true,
+    hideFooter: true,
+    styles: {
+      fontFamily: 'Paralucent',
+      fontWeight: 500,
+      backgroundSize: '100% auto',
+    },
+    links: [
+      {
+        text: 'Buy Now',
+        value: 'https://magiceden.io/marketplace/intergalactic_monkey_space_odyssey',
+      },
+    ],
+    colors: {
+      primary: '#000000',
+      secondary: '#000000',
+      accent: '#000000',
+      fontColor: '#FFFFFF',
+      fontColorSecondary: '#FFFFFF',
+    },
+    backgroundImage: '',
+  },
+  {
+    name: 'meta-chimp-champions',
+    displayName: 'Meta Chimp Champions',
+    stakePoolAddress: new PublicKey(
+      'AYCiw74j8yxsk3YpNSQqq8zHrje7AzeKG6teTL5hW4h8'
+    ),
+    websiteUrl: 'https://linktr.ee/IMSOnft',
+    imageUrl:
+      'https://igytn5tvqnfcoas2rinwz5flhz75w3crscwdbmen5fqen2vong6q.arweave.net/QbE29nWDSicCWoobbPSrPn_bbFGQrDCwjelgRuquab0',
+    maxStaked: 1160,
+    nameInHeader: true,
+    description: 'Stake your Meta Chimp Champion for 3 $RAIN/day',
+    receiptType: ReceiptType.Original,
+    tokenStandard: TokenStandard.NonFungible,
+    hideAllowedTokens: true,
+    hideFooter: true,
+    styles: {
+      fontFamily: 'Paralucent',
+      fontWeight: 500,
+      backgroundSize: '100% auto',
+    },
+    links: [
+      {
+        text: 'Buy Now',
+        value: 'https://magiceden.io/marketplace/imsonft',
       },
     ],
     colors: {

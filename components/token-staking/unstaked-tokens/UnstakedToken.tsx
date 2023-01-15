@@ -42,7 +42,7 @@ export const UnstakedToken = ({
   return (
     <div
       key={tk.tokenAccount?.pubkey.toString()}
-      className="relative mx-auto min-w-full"
+      className="pod"
     >
       <TokenWrapper token={tk} selected={selected} select={select}>
         {loading && (
@@ -66,7 +66,7 @@ export const UnstakedToken = ({
         </TokenImageWrapper>
 
         <div
-          className={`flex-col rounded-b-xl p-2 ${
+          className={`flex-col rounded-b-xl p-0 ${
             stakePoolMetadata?.colors?.fontColor
               ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
               : 'text-gray-200'
@@ -79,7 +79,7 @@ export const UnstakedToken = ({
             background: stakePoolMetadata?.colors?.backgroundSecondary,
           }}
         >
-          <div className="mb-2 truncate px-2 text-xl font-bold">
+          <div className="mb-2 truncate px-2 text-sm font-bold h-12 text-center">
             {getNameFromTokenData(tk, mintMetadata?.data)}
           </div>
           {!!tk.tokenListData?.symbol && (

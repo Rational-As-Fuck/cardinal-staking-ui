@@ -1,3 +1,4 @@
+/* eslint-disable simple-import-sort/imports */
 import { GlyphActivity } from 'assets/GlyphActivity'
 import { GlyphPerformance } from 'assets/GlyphPerformance'
 import { GlyphQuestion } from 'assets/GlyphQuestion'
@@ -20,6 +21,10 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
   content?: React.ReactNode
   icon?: InfoIcon
 }
+function handleChange(event: { target: { value: any } }) {
+  location = event.target.value;
+}
+
 export const Info: React.FC<Props> = ({
   header,
   description,
@@ -39,6 +44,24 @@ export const Info: React.FC<Props> = ({
           : '',
       }}
     >
+      <div>
+        <select onChange={handleChange} className="
+            block
+            text-slate-900
+            w-full
+            mt-1
+            rounded-md
+            border-gray-300
+            shadow-sm
+            focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
+          ">
+          <option selected value="">Select Collection</option>
+          <option value="meta-chimp-champions">Meta Chimp Champions</option>
+          <option value="imsoevolved">IMSO Evolved Chimps</option>
+          <option value="meta-overlord-clones">Meta Overlord Clones</option>
+          <option value="unique-overlord">Unique Meta Overlords</option>
+        </select>
+      </div>
       {/* <div
         className="blur-4xl absolute left-10 -z-10 h-[180px] w-[30%] -rotate-[60deg] bg-glow blur-[190px]"
         css={

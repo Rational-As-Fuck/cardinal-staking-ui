@@ -45,7 +45,7 @@ export const StakedToken = ({
   const mintMetadata = useMintMetadata(tk)
 
   return (
-    <div key={tk?.stakeEntry?.pubkey.toBase58()}>
+    <div className="pod" key={tk?.stakeEntry?.pubkey.toBase58()}>
       <TokenWrapper token={tk} selected={selected} select={select}>
         {(loadingClaim || loadingUnstake) && (
           <div>
@@ -92,7 +92,7 @@ export const StakedToken = ({
         </TokenImageWrapper>
 
         <div
-          className={`flex-col rounded-b-xl p-2 ${
+          className={`flex-col rounded-b-xl p-0 ${
             stakePoolMetadata?.colors?.fontColor
               ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
               : 'text-gray-200'
@@ -105,7 +105,7 @@ export const StakedToken = ({
             background: stakePoolMetadata?.colors?.backgroundSecondary,
           }}
         >
-          <div className="truncate px-2 text-xl font-bold">
+          <div className="truncate px-2 text-sm font-bold text-center">
             {getNameFromTokenData(tk, mintMetadata?.data)}
           </div>
           <div className="truncate font-semibold">

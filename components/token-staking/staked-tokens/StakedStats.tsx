@@ -54,7 +54,7 @@ export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
           <>
             {tokenData.stakeEntry && rewardMintInfo.data && (
               <StakedStatWrapper>
-                <span>Reward rate:</span>
+                <span>Rate:</span>
                 <span className="text-right">
                   {formatAmountAsDecimal(
                     rewardMintInfo.data.mintInfo.decimals,

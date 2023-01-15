@@ -30,3 +30,25 @@ body {
 ::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }
+
+.pod {
+  background-image: url("../images/IMSO_card_bg-tall.png");
+  padding: 25px;
+  @apply bg-center;
+  @apply bg-contain;
+  @apply bg-no-repeat;
+}
+
+.pod {
+  @apply opacity-80;
+}
+
+.pod:hover {
+  @apply opacity-100;
+  cursor: pointer;
+}
+
+.pod-selected {
+  background-image: url("/images/IMSO_card_bg_selected.png");
+  /* @apply opacity-100; */
+}

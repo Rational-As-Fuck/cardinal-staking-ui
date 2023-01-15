@@ -175,7 +175,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       fontColor: '#FFFFFF',
       fontColorSecondary: '#FFFFFF',
     },
-    backgroundImage: '',
+    backgroundImage: '/backgrounds/staking_bg_clones.jpg',
   },
   {
     name: 'unique-overlord',
@@ -211,7 +211,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       fontColor: '#FFFFFF',
       fontColorSecondary: '#FFFFFF',
     },
-    backgroundImage: '',
+    backgroundImage: '/backgrounds/staking_bg_uniques.jpg',
   },
   {
     name: 'meta-chimp-champions',
@@ -247,6 +247,6 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       fontColor: '#FFFFFF',
       fontColorSecondary: '#FFFFFF',
     },
-    backgroundImage: '',
+    backgroundImage: '/backgrounds/staking_bg_chimps.jpg',
   },
 ]

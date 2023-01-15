@@ -6,7 +6,7 @@ export const StakePoolImage = () => {
   return config?.imageUrl ? (
     <div className="relative flex w-1/4 grow items-center justify-center rounded-xl">
       <img
-        className={`max-h-[200px] w-auto rounded-xl ${
+        className={`max-h-[200px] w-auto rounded-xl border-solid border-zinc-200 border-2 ${
           config?.logoPadding && 'p-8'
         }`}
         src={config?.imageUrl}

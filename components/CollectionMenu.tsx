@@ -4,8 +4,7 @@ const Menu = () => {
   // 👇️ initial value of empty string (first option)
   const [selected, setSelected] = useState('');
 
-  const handleChange = event => {
-    console.log('Label 👉️', event.target.selectedOptions[0].label);
+  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     console.log(event.target.value);
     setSelected(event.target.value);
     location = event.target.value;

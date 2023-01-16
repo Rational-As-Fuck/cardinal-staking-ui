@@ -116,7 +116,7 @@ function StakePoolHome() {
       </Head>
       <Header />
       <div
-        className="relative z-0 mx-10 mt-4 mb-8 flex flex-col gap-4"
+        className="relative z-0 mx-10 mt-4 mb-8 flex flex-col gap-4 mainpage"
         style={{
           ...stakePoolMetadata?.styles,
           color:

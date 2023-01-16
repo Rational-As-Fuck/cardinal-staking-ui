@@ -73,3 +73,20 @@ body {
   background-color: rgba(25,115,140,.8)!important;
   border: 1px solid #999;
 }
+
+/* width */
+.vault::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.vault::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.vault::-webkit-scrollbar-thumb {
+  background: rgba(25,115,140,.8); 
+  border-radius: 10px;
+}

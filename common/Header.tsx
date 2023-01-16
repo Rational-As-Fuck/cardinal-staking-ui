@@ -90,7 +90,7 @@ export const Header = () => {
                   alt="IMSO logo"
                   src="/logos/imso_website_header_logo.png" />
             </a>
-            <a className="cursor-pointer transition-all hover:opacity-80" href="https://discord.gg/4gRMm6mgHZ">
+            <a className="cursor-pointer transition-all hover:opacity-80" href="https://discord.gg/uj9UVGcxCz">
                 <img
                   className="h-4 lg:h-6"
                   alt="Discord logo"

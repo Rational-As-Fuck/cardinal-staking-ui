@@ -8,12 +8,19 @@ export const TokenListEmptyState = ({
   message,
 }: TokenListEmptyStateProps) => {
   return (
-    <p
-      className={`font-normal ${
-        fontColor ? `text-[${fontColor}]` : 'text-gray-400'
-      }`}
-    >
-      {message}
-    </p>
+    <div className="container">
+      <p
+        className={`font-normal ${
+          fontColor ? `text-[${fontColor}]` : 'text-gray-400'
+        }`}
+      >
+        {message}
+      </p>
+      <style>{`
+        .vault:has(.container) {
+          height: 10vh
+        }
+      `}</style>
+    </div>
   )
 }

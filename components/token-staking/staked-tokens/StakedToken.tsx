@@ -1,3 +1,4 @@
+/* eslint-disable simple-import-sort/imports */
 import { DisplayAddress } from '@cardinal/namespaces-components'
 import { useWallet } from '@solana/wallet-adapter-react'
 import { defaultSecondaryColor } from 'api/mapping'

@@ -19,7 +19,7 @@ export const TokenImage = ({ token }: TokenImageProps) => {
         <>
           <img
             loading="lazy"
-            className={`absolute w-full h-auto rounded-t-xl object-contain px-1`}
+            className={`absolute rounded-t-xl w-52 h-52 object-cover px-1`}
             src={getImageFromTokenData(token, mintMetadata?.data)}
             alt={getNameFromTokenData(token, mintMetadata?.data)}
           />

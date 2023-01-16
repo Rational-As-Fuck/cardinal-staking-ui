@@ -52,3 +52,19 @@ body {
   background-image: url("/images/IMSO_card_bg_selected.png");
   /* @apply opacity-100; */
 }
+
+.navselect {
+  border: 1px solid #999;
+  color: #fff;
+  background-color: rgba(25,115,140,.8)!important;
+  justify-content: center!important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  height: 36px;
+  line-height: normal;
+  padding: 0 20px;
+  border-radius: 5px;
+}

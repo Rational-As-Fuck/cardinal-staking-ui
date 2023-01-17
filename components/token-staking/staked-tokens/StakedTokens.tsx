@@ -29,7 +29,7 @@ export const StakedTokens = () => {
 
   return (
     <div
-      className={`rounded-xl p-10 ${
+      className={`container rounded-xl p-5 ${
         stakePoolMetadata?.colors?.fontColor ? '' : 'text-gray-200'
       } bg-white bg-opacity-5`}
       style={{

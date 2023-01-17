@@ -93,7 +93,7 @@ export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
             </span>
           </StakedStatWrapper>
         )}
-      {!!stakePool?.parsed?.minStakeSeconds &&
+      {/* {!!stakePool?.parsed?.minStakeSeconds &&
         !!tokenData.stakeEntry?.parsed?.lastStakedAt && (
           <StakedStatWrapper>
             <span>Min Time:</span>
@@ -101,7 +101,7 @@ export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
               <TokenStatMinimumStakeTimeValue tokenData={tokenData} />
             </span>
           </StakedStatWrapper>
-        )}
+        )} */}
     </div>
   )
 }

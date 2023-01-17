@@ -1,3 +1,4 @@
+/* eslint-disable simple-import-sort/imports */
 import { ReceiptType } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import { Tooltip } from '@mui/material'
 import { defaultSecondaryColor, TokenStandard } from 'api/mapping'
@@ -40,7 +41,7 @@ export const UnstakedTokens = () => {
 
   return (
     <div
-      className={`flex-col rounded-xl p-10 ${
+      className={`container rounded-xl p-5 ${
         stakePoolMetadata?.colors?.fontColor ? '' : 'text-gray-200'
       } bg-white bg-opacity-5`}
       style={{
@@ -53,7 +54,7 @@ export const UnstakedTokens = () => {
       <div className="mt-2 flex w-full flex-row items-center justify-between">
         <div className="flex flex-row">
           <div className="mb-3 mr-3 inline-block text-lg">
-            Select Your Tokens
+            Stake Your Tokens
           </div>
         </div>
         <div className="flex flex-row items-center justify-center">

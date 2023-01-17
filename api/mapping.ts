@@ -112,8 +112,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       'HFj3pKHCfiE1KRacBz5YYatnrWDVqiZxnHrqhdR9VqUa'
     ),
     websiteUrl: 'https://linktr.ee/IMSOnft',
-    imageUrl:
-      'https://d1fdloi71mui9q.cloudfront.net/JXkGgPyVTxmYtFiLOEa1_Gib4XWn8Gfg1cUtQ',
+    imageUrl: '/images/imsoevolved.png',
     maxStaked: 3509,
     nameInHeader: true,
     description: 'Stake your IMSO Evolved Chimps for 2 $RAIN/day',
@@ -148,8 +147,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       'Dc8snKqYYg2t4AFRY2CAsA5PqyTkHmihiFscU1DUKxcR'
     ),
     websiteUrl: 'https://linktr.ee/IMSOnft',
-    imageUrl:
-      'https://vjjrkbcq4d4cm4bsc6ddad7ly74u6czpprw435iga4o4b2q47tzq.arweave.net/qlMVBFDg-CZwMheGMA_rx_lPCy98bc31BgcdwOoc_PM?ext=jpg',
+    imageUrl:'/images/meta-overlord-clones.png',
     maxStaked: 477,
     nameInHeader: true,
     description: 'Stake your clone for 6.5 $RAIN/day',
@@ -175,7 +173,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       fontColor: '#FFFFFF',
       fontColorSecondary: '#FFFFFF',
     },
-    backgroundImage: '',
+    backgroundImage: '/backgrounds/staking_bg_clones.jpg',
   },
   {
     name: 'unique-overlord',
@@ -184,8 +182,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       'DzKf8FmUqPmJfb62XaxWZ9F5uSUstCVrLgVSbVzbKR9X'
     ),
     websiteUrl: 'https://linktr.ee/IMSOnft',
-    imageUrl:
-      'https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachments/fc1d1275f51b28f4a294c55e7101c280/414d4881/IMSOnft_MagicEden_500x500.jpg',
+    imageUrl: '/images/unique-overlord.png',
     maxStaked: 32,
     nameInHeader: true,
     description: 'Stake your unique overlord for 9 $RAIN/day',
@@ -211,7 +208,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       fontColor: '#FFFFFF',
       fontColorSecondary: '#FFFFFF',
     },
-    backgroundImage: '',
+    backgroundImage: '/backgrounds/staking_bg_uniques.jpg',
   },
   {
     name: 'meta-chimp-champions',
@@ -220,8 +217,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       'AYCiw74j8yxsk3YpNSQqq8zHrje7AzeKG6teTL5hW4h8'
     ),
     websiteUrl: 'https://linktr.ee/IMSOnft',
-    imageUrl:
-      'https://shdw-drive.genesysgo.net/5QWV5pbHoJpy8mYUAKgrBNBE2mPXbqwy4CVhHRqq33Ns/OG2.jpg',
+    imageUrl: '/images/OG-Chimps.png',
     maxStaked: 1160,
     nameInHeader: true,
     description: 'Stake your Meta Chimp Champion for 4.5 $RAIN/day',
@@ -247,6 +243,6 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       fontColor: '#FFFFFF',
       fontColorSecondary: '#FFFFFF',
     },
-    backgroundImage: '',
+    backgroundImage: '/backgrounds/staking_bg_chimps.jpg',
   },
 ]

@@ -13,7 +13,7 @@ import { useStakePoolData } from 'hooks/useStakePoolData'
 
 import { StakedStatWrapper } from '@/components/token-staking/staked-tokens/StakedStatWrapper'
 import { TokenStatCooldownValue } from '@/components/token-staking/token-stats/values/TokenStatCooldownValue'
-import { TokenStatMinimumStakeTimeValue } from '@/components/token-staking/token-stats/values/TokenStatMinimumStakeTimeValue'
+// import { TokenStatMinimumStakeTimeValue } from '@/components/token-staking/token-stats/values/TokenStatMinimumStakeTimeValue'
 
 export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
   const rewardMintInfo = useRewardMintInfo()
@@ -54,16 +54,16 @@ export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
           <>
             {tokenData.stakeEntry && rewardMintInfo.data && (
               <StakedStatWrapper>
-                <span>Reward rate:</span>
+                <span>Rate:</span>
                 <span className="text-right">
                   {formatAmountAsDecimal(
                     rewardMintInfo.data.mintInfo.decimals,
                     rewardsRate.data?.rewardsRateMap[
                       tokenData.stakeEntry.pubkey.toString()
                     ]?.dailyRewards || new BN(0), // max of 5 decimals
-                    Math.min(rewardMintInfo.data.mintInfo.decimals, 5)
-                  )}{' '}
-                  / day
+                    Math.min(rewardMintInfo.data.mintInfo.decimals, 3)
+                  ).toLocaleString()}
+                  /day
                 </span>
               </StakedStatWrapper>
             )}
@@ -77,7 +77,7 @@ export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
                       tokenData.stakeEntry.pubkey.toString()
                     ]?.claimableRewards || new BN(0),
                     // max of 5 decimals
-                    Math.min(rewardMintInfo.data.mintInfo.decimals, 5)
+                    Math.min(rewardMintInfo.data.mintInfo.decimals, 3)
                   ).toLocaleString()}
                 </span>
               </StakedStatWrapper>
@@ -93,7 +93,7 @@ export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
             </span>
           </StakedStatWrapper>
         )}
-      {!!stakePool?.parsed?.minStakeSeconds &&
+      {/* {!!stakePool?.parsed?.minStakeSeconds &&
         !!tokenData.stakeEntry?.parsed?.lastStakedAt && (
           <StakedStatWrapper>
             <span>Min Time:</span>
@@ -101,7 +101,7 @@ export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
               <TokenStatMinimumStakeTimeValue tokenData={tokenData} />
             </span>
           </StakedStatWrapper>
-        )}
+        )} */}
     </div>
   )
 }

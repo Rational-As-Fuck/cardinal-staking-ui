@@ -33,13 +33,12 @@ body {
 
 .pod {
   background-image: url("../images/IMSO_card_bg-tall.png");
+  margin: auto;
   padding: 25px;
+  max-width: min-content;
   @apply bg-center;
   @apply bg-contain;
   @apply bg-no-repeat;
-}
-
-.pod {
   @apply opacity-80;
 }
 
@@ -72,6 +71,10 @@ body {
 .mainpage button {
   background-color: rgba(25,115,140,.8)!important;
   border: 1px solid #999;
+}
+
+.vault {
+  scrollbar-gutter: stable both-edges;
 }
 
 /* width */

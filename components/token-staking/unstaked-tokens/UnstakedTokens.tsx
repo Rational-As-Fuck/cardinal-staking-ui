@@ -41,7 +41,7 @@ export const UnstakedTokens = () => {
 
   return (
     <div
-      className={`flex-col rounded-xl px-0 sm:px-10 pb-5 ${
+      className={`container rounded-xl p-5 ${
         stakePoolMetadata?.colors?.fontColor ? '' : 'text-gray-200'
       } bg-white bg-opacity-5`}
       style={{

@@ -66,7 +66,7 @@ export const UnstakedToken = ({
         </TokenImageWrapper>
 
         <div
-          className={`flex-col rounded-b-xl p-0 ${
+          className={`flex-col rounded-b-xl p-0 h-32 min-h-full ${
             stakePoolMetadata?.colors?.fontColor
               ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
               : 'text-gray-200'

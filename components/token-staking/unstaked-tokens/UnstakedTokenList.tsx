@@ -100,7 +100,7 @@ export const UnstakedTokenList = ({
           message="No allowed tokens found in wallet."
         />
       ) : (
-        <div className={'grid w-full grid-cols-1 gap-8 pb-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 4xl:grid-cols-6'}>
+        <div className={'grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-4 w-full'}>
           {(stakePoolMetadata?.notFound
             ? []
             : allowedTokenDatas.data?.slice(0, PAGE_SIZE * pageNum[0]) ?? []

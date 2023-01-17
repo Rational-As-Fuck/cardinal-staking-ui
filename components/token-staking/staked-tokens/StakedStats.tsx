@@ -61,9 +61,9 @@ export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
                     rewardsRate.data?.rewardsRateMap[
                       tokenData.stakeEntry.pubkey.toString()
                     ]?.dailyRewards || new BN(0), // max of 5 decimals
-                    Math.min(rewardMintInfo.data.mintInfo.decimals, 5)
-                  )}{' '}
-                  / day
+                    Math.min(rewardMintInfo.data.mintInfo.decimals, 3)
+                  ).toLocaleString()}
+                  /day
                 </span>
               </StakedStatWrapper>
             )}
@@ -77,7 +77,7 @@ export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
                       tokenData.stakeEntry.pubkey.toString()
                     ]?.claimableRewards || new BN(0),
                     // max of 5 decimals
-                    Math.min(rewardMintInfo.data.mintInfo.decimals, 5)
+                    Math.min(rewardMintInfo.data.mintInfo.decimals, 3)
                   ).toLocaleString()}
                 </span>
               </StakedStatWrapper>

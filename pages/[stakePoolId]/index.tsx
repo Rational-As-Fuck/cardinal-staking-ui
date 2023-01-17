@@ -162,7 +162,7 @@ function StakePoolHome() {
                     />
                   )}
                 <StakePoolNotice />
-               <div className="grid grid-cols-1 gap-4 md:grid-cols-1">
+               <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                   <UnstakedTokens />
                   <StakedTokens />
                 </div>

@@ -4,9 +4,6 @@ export const TokenListLoader = ({}) => {
       <div className="aspect-square animate-pulse rounded-lg bg-white bg-opacity-5 p-10"></div>
       <div className="aspect-square animate-pulse rounded-lg bg-white bg-opacity-5 p-10"></div>
       <div className="aspect-square animate-pulse rounded-lg bg-white bg-opacity-5 p-10"></div>
-      <div className="aspect-square animate-pulse rounded-lg bg-white bg-opacity-5 p-10"></div>
-      <div className="aspect-square animate-pulse rounded-lg bg-white bg-opacity-5 p-10"></div>
-      <div className="aspect-square animate-pulse rounded-lg bg-white bg-opacity-5 p-10"></div>
     </div>
   )
 }

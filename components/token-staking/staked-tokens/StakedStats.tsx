@@ -13,7 +13,7 @@ import { useStakePoolData } from 'hooks/useStakePoolData'
 
 import { StakedStatWrapper } from '@/components/token-staking/staked-tokens/StakedStatWrapper'
 import { TokenStatCooldownValue } from '@/components/token-staking/token-stats/values/TokenStatCooldownValue'
-import { TokenStatMinimumStakeTimeValue } from '@/components/token-staking/token-stats/values/TokenStatMinimumStakeTimeValue'
+// import { TokenStatMinimumStakeTimeValue } from '@/components/token-staking/token-stats/values/TokenStatMinimumStakeTimeValue'
 
 export function StakedStats({ tokenData }: { tokenData: StakeEntryTokenData }) {
   const rewardMintInfo = useRewardMintInfo()

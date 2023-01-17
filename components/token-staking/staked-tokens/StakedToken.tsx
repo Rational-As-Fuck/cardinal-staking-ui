@@ -46,7 +46,7 @@ export const StakedToken = ({
   const mintMetadata = useMintMetadata(tk)
 
   return (
-    <div className="pod" key={tk?.stakeEntry?.pubkey.toBase58()}>
+    <div className="pod" key={tk?.stakeEntry?.pubkey.toBase58()} onClick={() => select(tk)} style={{opacity: selected ? `100%`: ''}}>
       <TokenWrapper token={tk} selected={selected} select={select}>
         {(loadingClaim || loadingUnstake) && (
           <div>

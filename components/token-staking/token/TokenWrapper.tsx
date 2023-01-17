@@ -29,7 +29,7 @@ export const TokenWrapper = ({
       ])}
       onClick={() => select(token)}
       style={{
-        outlineColor: selected ? stakePoolMetadata?.colors?.secondary : '',
+        outlineColor: selected ? stakePoolMetadata?.colors?.fontColor : '',
         boxShadow: selected
           ? `0px 0px 20px ${stakePoolMetadata?.colors?.secondary || '#FFFFFF'}`
           : '',

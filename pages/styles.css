@@ -39,17 +39,12 @@ body {
   @apply bg-center;
   @apply bg-contain;
   @apply bg-no-repeat;
-  @apply opacity-80;
+  @apply opacity-75;
 }
 
 .pod:hover {
   @apply opacity-100;
   cursor: pointer;
-}
-
-.pod-selected {
-  background-image: url("/images/IMSO_card_bg_selected.png");
-  /* @apply opacity-100; */
 }
 
 .navselect {
@@ -79,7 +74,7 @@ body {
 
 /* width */
 .vault::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 /* Track */

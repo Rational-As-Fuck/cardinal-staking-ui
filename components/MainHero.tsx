@@ -1,12 +1,7 @@
-import { PlusIcon } from '@heroicons/react/24/solid'
 import { HeaderSlim } from 'common/HeaderSlim'
-import { withCluster } from 'common/utils'
-import { statsNameMapping, useGlobalStats } from 'hooks/useGlobalStats'
+import { useGlobalStats } from 'hooks/useGlobalStats'
 import { useRouter } from 'next/router'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
-
-import { ButtonPrimary } from '@/components/UI/buttons/ButtonPrimary'
-import { BodyCopy } from '@/components/UI/typography/BodyCopy'
 import { HeadingPrimary } from '@/components/UI/typography/HeadingPrimary'
 
 export const MainHero = () => {

@@ -1,9 +1,11 @@
+/* eslint-disable simple-import-sort/imports */
 import { GlyphActivity } from 'assets/GlyphActivity'
 import { GlyphPerformance } from 'assets/GlyphPerformance'
 import { GlyphQuestion } from 'assets/GlyphQuestion'
 import { useStakePoolMetadata } from 'hooks/useStakePoolMetadata'
 import { AiFillStar } from 'react-icons/ai'
 import { MdAccessTimeFilled, MdSell } from 'react-icons/md'
+import Menu from '@/components/CollectionMenu'
 
 export type InfoIcon =
   | 'time'
@@ -20,6 +22,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
   content?: React.ReactNode
   icon?: InfoIcon
 }
+
 export const Info: React.FC<Props> = ({
   header,
   description,
@@ -39,6 +42,9 @@ export const Info: React.FC<Props> = ({
           : '',
       }}
     >
+      <div>
+        <Menu/>
+      </div>
       {/* <div
         className="blur-4xl absolute left-10 -z-10 h-[180px] w-[30%] -rotate-[60deg] bg-glow blur-[190px]"
         css={

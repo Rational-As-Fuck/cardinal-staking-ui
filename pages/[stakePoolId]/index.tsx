@@ -1,3 +1,4 @@
+/* eslint-disable simple-import-sort/imports */
 import { Footer } from 'common/Footer'
 import { FooterSlim } from 'common/FooterSlim'
 import { Header } from 'common/Header'
@@ -115,7 +116,7 @@ function StakePoolHome() {
       </Head>
       <Header />
       <div
-        className="relative z-0 mx-10 mt-4 mb-8 flex flex-col gap-4"
+        className="relative z-0 mx-10 mt-4 mb-8 flex flex-col gap-4 mainpage"
         style={{
           ...stakePoolMetadata?.styles,
           color:
@@ -149,9 +150,9 @@ function StakePoolHome() {
                   !!stakedTokenDatas.data?.length && (
                     <Info
                       colorized
-                      icon="performance"
-                      header="Personal Charts"
-                      description="View your recent performance"
+                      // icon="performance"
+                      // header="Personal Charts"
+                      // description="View your recent performance"
                       style={{ color: stakePoolMetadata?.colors?.fontColor }}
                       content={
                         <div className="flex grow items-center justify-end">
@@ -161,7 +162,7 @@ function StakePoolHome() {
                     />
                   )}
                 <StakePoolNotice />
-                <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+               <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                   <UnstakedTokens />
                   <StakedTokens />
                 </div>

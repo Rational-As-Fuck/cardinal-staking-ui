@@ -30,3 +30,61 @@ body {
 ::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }
+
+.pod {
+  background-image: url("../images/IMSO_card_bg-tall.png");
+  margin: auto;
+  padding: 25px;
+  max-width: min-content;
+  @apply bg-center;
+  @apply bg-contain;
+  @apply bg-no-repeat;
+  @apply opacity-75;
+}
+
+.pod:hover {
+  @apply opacity-100;
+  cursor: pointer;
+}
+
+.navselect {
+  border: 1px solid #999;
+  color: #fff;
+  background-color: rgba(25,115,140,.8)!important;
+  justify-content: center!important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  height: 36px;
+  line-height: normal;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.mainpage button {
+  background-color: rgba(25,115,140,.8)!important;
+  border: 1px solid #999;
+}
+
+.vault {
+  scrollbar-gutter: stable both-edges;
+}
+
+/* width */
+.vault::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.vault::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.vault::-webkit-scrollbar-thumb {
+  background: rgba(25,115,140,.8); 
+  border-radius: 10px;
+}

@@ -84,7 +84,7 @@ export const Header = () => {
                   </p>
                 </a>
               ))}
-              <a className="cursor-pointer transition-all hover:opacity-80" href="https://imsonft.io/">
+              <a className="cursor-pointer transition-all hover:opacity-80" href="http://imsonft.me/">
                 <img
                   className="h-4 lg:h-6"
                   alt="IMSO logo"
@@ -96,7 +96,7 @@ export const Header = () => {
                   alt="Discord logo"
                   src="/logos/discord.svg" />
             </a>
-            <a className="cursor-pointer transition-all hover:opacity-80" href="https://twitter.com/IMSO_Game">
+            <a className="cursor-pointer transition-all hover:opacity-80" href="https://twitter.com/imso_nft">
                 <img
                   className="h-4 lg:h-6"
                   alt="Twitter logo"

@@ -12,8 +12,8 @@ function Homepage() {
   return (
     <div className="bg-dark-5">
       <Head>
-        <title>Cardinal Staking UI</title>
-        <meta name="description" content="Cardinal Staking UI" />
+        <title>IMSO Staking Hub</title>
+        <meta name="description" content="IMSO Staking Hub" />
         <link rel="icon" href={'/favicon.ico'} />
         <script
           defer

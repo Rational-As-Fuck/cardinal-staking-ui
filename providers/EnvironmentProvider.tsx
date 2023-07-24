@@ -24,9 +24,9 @@ export const ENVIRONMENTS: Environment[] = [
   {
     label: 'mainnet-beta',
     primary:
-      process.env.MAINNET_PRIMARY || 'https://fragrant-empty-flower.solana-mainnet.quiknode.pro/09f2fd50938bf565b53a0a51290453220ba41012/',
+      process.env.MAINNET_PRIMARY || 'https://fragrant-empty-flower.solana-mainnet.quiknode.pro/0612d3164b4983c8f695a0d9d2516057eae86835/',
     secondary:
-      process.env.MAINNET_SECONDARY || 'https://fragrant-empty-flower.solana-mainnet.quiknode.pro/09f2fd50938bf565b53a0a51290453220ba41012/',
+      process.env.MAINNET_SECONDARY || 'https://fragrant-empty-flower.solana-mainnet.quiknode.pro/0612d3164b4983c8f695a0d9d2516057eae86835/',
   },
   {
     label: 'testnet',
